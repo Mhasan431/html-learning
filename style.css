@@ -1,0 +1,35 @@
+h1{
+    color: purple;
+    font-size: 50px;
+    text-shadow: 5px -5px 3px gray;
+}
+
+.ll > p:nth-child(2n+1){
+    color: orangered;
+}
+
+.ll > p{
+    color: green;
+}
+
+.ok > p{
+    color: blue;
+}
+
+input[type="submit"]:hover{
+    background-color: lawngreen;
+    border-radius: 15px;
+}
+
+input[type="reset"]:hover{
+    background-color: red;
+    border-radius: 15px;
+}
+
+input:focus{
+    background-color: aquamarine;
+} 
+
+textarea:focus{
+    background-color:aquamarine;
+}

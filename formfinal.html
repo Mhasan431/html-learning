@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registretion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <pre>
+            <span class="link"><a href="index.html">Home</a></span>     <span class="link"><a href="formfinal.html">Form</a></span>     <span class="link"><a href="table.html">Table</a></span>
+        </pre>
+    </header><hr><hr><hr>
+    
+    <h1>Registretion Form</h1><hr><hr>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend><h2>Fill the form carefully</h2></legend>
+
+            <div>
+                <label for="name"><b>Full Name</b>
+                    <input type="text" name="name" id="name" placeholder="user name" required>
+                </label>    
+            </div><br>
+            
+            <div>
+                <label for="email"><b>Enter Email</b>
+                    <input type="email" name="email" id="email" placeholder="user@gmail.com" required>
+                </label> 
+            </div><br>
+
+            <div>
+                <label for="pass"><b>Set Password</b>
+                    <input type="password" name="pass" id="pass" placeholder="set password" required>
+                </label>  
+            </div><br>
+
+            <div>
+                <label for="dob"><b>Birth Date</b>
+                    <input type="date" name="dob" id="dob" required>
+                </label>
+            </div><br>
+
+            <div>
+                <label for="photo"><b>Add Photo</b>
+                    <input type="file" name="photo" id="photo" required>
+                </label>
+            </div><br>
+
+            <div>
+                <label for="gender"><b>Select Gender</b>
+                    <label for="01">
+                        <input type="radio" name="gender" id="01" value="male">Male
+                    </label>
+                    
+                    <label for="02">
+                        <input type="radio" name="gender" id="02" value="female">Female
+                    </label>
+                    <label for="03">
+                        <input type="radio" name="gender" id="03" value="other">Other
+                    </label>
+                </label>   
+            </div><br>
+
+            <div>
+                <label for="Choose"><b>Choose Subjects</b>
+                    <label for="01">
+                        <input type="checkbox" name="choose" id="01" value="bangla">Bangla
+                    </label>
+                    <label for="02">
+                        <input type="checkbox" name="choose" id="02" value="english">English
+                    </label>
+                    <label for="03">
+                        <input type="checkbox" name="choose" id="03" value="islam" required>Islam
+                    </label>
+                </label>
+            </div><br>
+            
+            <div>
+                <label for="dept"><b>Depertment</b>
+                    <select name="dept" id="dept">
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="bba">BBA</option>
+                    </select>
+                </label>
+            </div><br>
+
+            <div>
+                <label for="feedback"><b>Feedback</b><br></label>
+                <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="enter feedback here"></textarea>
+            </div><br>
+
+            <div>
+                <pre><input type="submit" name="submit" id="submit" value="Registretuon">               <input type="reset" name="reset" id="reset" value="Clear"></pre>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
